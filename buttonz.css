@@ -18,7 +18,8 @@
 .btn-large {
   font-size: 1.5em;
 }
-.disabled {
+.disabled,
+.disabled:hover {
   color: #999;
   opacity: .8;
   text-decoration: none;
