@@ -1,0 +1,26 @@
+.btn {
+  background-image: -moz-linear-gradient(top, #EEE 0%, #CCCCCC 100%);
+  background-image: -webkit-linear-gradient(top, #EEE 0%, #CCCCCC 100%);
+  border: 1px solid #999;
+  border-radius: .25em;
+  display: inline-block;
+  margin: .5em;
+  padding: .5em;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover {
+  text-decoration: underline;
+}
+.btn-block {
+  display: block;
+}
+.btn-large {
+  font-size: 1.5em;
+}
+.disabled {
+  color: #999;
+  opacity: .8;
+  text-decoration: none;
+}
+
